@@ -23,6 +23,10 @@
 
 .eCards{
     margin: 0;
+<<<<<<< HEAD
+=======
+    justify-content: space-between;
+>>>>>>> f67dc98b6cb4960513a39059af3f91ba77abcbe5
 }
 
 .footer{
