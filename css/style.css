@@ -3,15 +3,22 @@
     font-family: fantasy;
 }
 
-.modal-title p{
+.subtitle-p{
+    border-left: 2px solid gray;
+    padding: .3rem;
     font-size: .8rem;
-    color: gray;
+    color: rgb(90, 89, 89);
 }
-
 .addEmpBtn{
     min-width: max-content;
     margin-left: .5rem;
 }
+
+.eCards{
+    margin: 0;
+    justify-content: space-between;
+}
+
 .footer{
     color: white;
     position: fixed;
