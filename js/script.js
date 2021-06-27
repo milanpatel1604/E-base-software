@@ -22,6 +22,9 @@ addBtn.addEventListener('click', function () {
         eEmpArr.push(eSalary.value);
         eEmpArr.push(ePosition.value);
     }
+    else{
+        
+    }
     localStorage.setItem("eEmpStr", JSON.stringify(eEmpArr));
     showCard();
     if (eName.value, eId.value, eSalary.value, ePosition.value != 0) {
@@ -49,12 +52,12 @@ function showCard() {
         html +=
             `<div class="card m-4 mb-2" style="width: 15rem;">
         <div class="card-body">
-        <h5 class="card-title">${eEmpArr[i]}</h5>
+        <h5 class="card-title"><b>${eEmpArr[i]}</b></h5>
         </div>
         <ul class="list-group list-group-flush">
-        <li class="list-group-item">employee id: ${eEmpArr[i + 1]}</li>
-        <li class="list-group-item">salary: ${eEmpArr[i + 2]}</li>
-        <li class="list-group-item">position: ${eEmpArr[i + 3]}</li>
+        <li class="list-group-item"><b>employee id:</b> ${eEmpArr[i + 1]}</li>
+        <li class="list-group-item"><b>salary:</b> ${eEmpArr[i + 2]}</li>
+        <li class="list-group-item"><b>position:</b> ${eEmpArr[i + 3]}</li>
         </ul>
         <div class="card-body">
         <button type="submit" class="btn btn-secondary" onclick="editEmpCard(${i})" data-bs-toggle="modal" data-bs-target="#exampleModal"
@@ -67,7 +70,7 @@ function showCard() {
         cardsContainer.innerHTML = html;
     }
     else {
-        cardsContainer.innerHTML = "<h4 class='mt-3' > No Employees to Show </h4>";
+        cardsContainer.innerHTML = "<h4 class='mt-3' > No Employees to Show, <br><p class='subtitle-p'> Add your employees to maintain their details.</p></h4>";
     }
 }
 

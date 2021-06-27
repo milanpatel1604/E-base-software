@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html"><img src="/images/laptop-user.png" alt="employee">E-Base</a>
+            <a class="navbar-brand" href="/index.html"><img src="/images/laptop-user.png" alt="employee"><span>E-BASE</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" id="searchTxt" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <input type="button" class="btn btn-outline-success" value="Search">
 
                     <button type="button" class="btn 
                     addEmpBtn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"
@@ -45,7 +45,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Fill employee details <br><p>Every field is mandatory, incomplete form is not accepted.</p></h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Fill employee details <br><p class="subtitle-p">Every field is mandatory, incomplete form is not accepted.</p></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -75,7 +75,7 @@
             </div>
     </section>
     <section>
-        <div class="eCards row container-fluid p-4" id="cardsContainer"></div>
+        <div class="eCards row container-fluid pt-2" id="cardsContainer"></div>
     </section>
     <footer class="footer bg-dark">
         <p> &copy; 2021 Copyright: Milan patel |
