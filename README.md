@@ -14,6 +14,6 @@ Features:
 4. Search/filter for employees🔍
 5. Fully responsive💻📲
 
-![alt text](https://raw.githubusercontent.com/milanpatel1604/E-base-software/master/Project%20screenshot.PNG)
+![alt text](https://raw.githubusercontent.com/milanpatel1604/E-base-software/master/Project%20screenshot.PNG) ![alt text](https://raw.githubusercontent.com/milanpatel1604/E-base-software/master/Project%20screenshot%20mobile%20view.PNG)
 
 Note: Localstorage is used to save employee details permanently, No database is user. 
