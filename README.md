@@ -1,16 +1,25 @@
-# E-base-software
-E-base is an employee details management web-based software,
+# E-base-software💻
+E-base is an employee details management web-based software🌐,
 
 Made with :
 1. HTML
 2. CSS
 3. JS (AJAX)
-4. Bootstrap Components
+4. Bootstrap Components🅱
 
 Features:
-1. Add an employee details
-2. Delete an employee details
+1. Add an employee details➕
+2. Delete an employee details➖
 3. Edit details of an employee
-4. Search/filter for employees
+4. Search/filter for employees🔍
+5. Fully responsive💻📲
+
+Desktop View:
+
+![alt text](https://raw.githubusercontent.com/milanpatel1604/E-base-software/master/Project%20screenshot.PNG) 
+
+Mobile View:
+
+![alt text](https://raw.githubusercontent.com/milanpatel1604/E-base-software/master/Project%20screenshot%20mobile%20view.PNG)
 
 Note: Localstorage is used to save employee details permanently, No database is user. 
